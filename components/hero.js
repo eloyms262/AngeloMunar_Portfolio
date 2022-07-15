@@ -38,13 +38,14 @@ export default function HeroSection() {
         <HiDocumentText className="text-white h-8 w-8 mx-3" />
       </div>
       <div className="flex flex-col items-center justify-center mt-8">
-        <Link
-          href={"#about-me"}
-          className="text-white font-SourceSansPro text-lg"
-        >
-          More about me
+        <Link href={"#about-me"}>
+          <div className="flex flex-col items-center justify-center">
+            <a className="text-white font-SourceSansPro text-lg">
+              More about me
+            </a>
+            <BsChevronDoubleDown className="text-white h-6 w-6 animate-bounce mt-5" />
+          </div>
         </Link>
-        <BsChevronDoubleDown className="text-white h-6 w-6 animate-bounce mt-5" />
       </div>
     </div>
   );
