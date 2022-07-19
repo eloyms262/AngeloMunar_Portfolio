@@ -18,7 +18,7 @@ export default function Project(props) {
       </div>
 
       <div className="w-10/12">
-        <p className="text-yellow-500 font-oswald font-normal text-lg">
+        <p className="text-yellow-500 font-oswald font-normal text-mds">
           WEB APPLICATION
         </p>
         <h1 className="text-white font-oswald font-bold text-2xl">
