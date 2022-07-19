@@ -14,9 +14,11 @@ export default function AboutSection() {
         Who I Am
       </h1>
 
-      <img
+      <Image
         src="/images/myself.png"
-        className=" rounded-full h-56 w-60  bg-slate-400  bg-center my-4"
+        className=" rounded-full bg-slate-400  bg-center my-4"
+        width={240}
+        height={224}
       />
       <span className="w-9/12 text-justify font-SourceSansPro ">
         Well hello there, I am Angelo and currently looking for oppurtunities to

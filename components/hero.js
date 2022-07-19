@@ -8,9 +8,11 @@ import Link from "next/link";
 export default function HeroSection() {
   return (
     <div className=" mx-auto w-5/6 mt-20">
-      <div className=" ">
+      <div>
         <div className="">
-          <h1 className="text-3xl text-white font-oswald font-bold">Hi! I'm</h1>
+          <h1 className="text-3xl text-white font-oswald font-bold">
+            Hi! I&apos;m
+          </h1>
           <Text
             className="text-5xl font-bold text-[#53BEDF] font-oswald"
             textShadow="1px 1px #000000"
