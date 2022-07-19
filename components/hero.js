@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export default function HeroSection() {
   return (
-    <div className="h-screen mx-auto w-5/6 mt-20">
+    <div className=" mx-auto w-5/6 mt-20">
       <div className=" ">
         <div className="">
           <h1 className="text-3xl text-white font-oswald font-bold">Hi! I'm</h1>
