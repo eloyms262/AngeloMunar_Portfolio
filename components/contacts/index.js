@@ -1,7 +1,7 @@
 import { Formik, Field, Form } from "formik";
 export default function Contact() {
   return (
-    <div className="bg-[#3F5687] mt-8 ">
+    <div id="my-contacts" className="bg-[#3F5687] mt-8 ">
       <h1 className="font-oswald text-3xl text-white font-bold w-10/12 mx-7 py-3">
         Contacts
       </h1>

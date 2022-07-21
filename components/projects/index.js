@@ -3,7 +3,7 @@ import { SiGithub } from "react-icons/si";
 export default function Project(props) {
   const data = [{}];
   return (
-    <div className="flex flex-col items-center mt-8">
+    <div id="projects" className="flex flex-col items-center mt-8">
       <div className="flex flex-col break-words items-center w-9/12">
         <h1 className="font-oswald font-bold text-white text-justify text-xl">
           Some projects I’ve created in my self taught journey.

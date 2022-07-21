@@ -7,6 +7,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider>
       <MainNav />
+
       <Component {...pageProps} />
     </ChakraProvider>
   );

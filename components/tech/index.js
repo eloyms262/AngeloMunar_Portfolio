@@ -12,7 +12,10 @@ import {
 import { Tooltip } from "@chakra-ui/react";
 export default function TechStack() {
   return (
-    <div className="bg-white flex flex-col items-center justify-center pb-8 ">
+    <div
+      id="techs"
+      className="bg-white flex flex-col items-center justify-center pb-8 "
+    >
       {/* <svg
         width="130"
         height="110"
