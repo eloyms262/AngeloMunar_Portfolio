@@ -5,13 +5,14 @@ import { AiFillMail } from "react-icons/ai";
 import { HiDocumentText } from "react-icons/hi";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import "animate.css";
 
 export default function HeroSection() {
   return (
-    <div className=" mx-auto w-5/6 mt-20 lg:w-7/12 lg:h-screen lg:flex lg:flex-col lg:translate-y-40 ">
+    <div className=" mx-auto w-5/6 mt-20 lg:w-7/12 lg:h-5/6 lg:flex lg:flex-col  ">
       <div className="lg:flex lg:flex-row-reverse lg:mx-auto lg:items-center">
         <div>
-          <div className="">
+          <div className="animate__animated animate__slideInLeft animate__faster">
             <h1 className="text-3xl text-white font-oswald font-bold lg:text-5xl">
               Hi! I&apos;m
             </h1>
@@ -22,7 +23,7 @@ export default function HeroSection() {
               Angelo Munar
             </Text>
           </div>
-          <div className="mt-4">
+          <div className="mt-4 animate__animated animate__fadeInDown animate__delay-0.5s">
             {
               <p className="text-white font-SourceSansPro lg:text-3xl">
                 I’m a Computer Science Undergrad -{" "}
@@ -41,29 +42,29 @@ export default function HeroSection() {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <ImLinkedin className="text-white  h-8 w-8 lg:h-10 lg:w-10 mx-3 lg:my-3  " />
+            <ImLinkedin className="text-white  h-8 w-8 lg:h-10 lg:w-10 mx-3 lg:my-3  animate__animated animate__fadeIn animate__delay-1s" />
           </a>
           <a
             href="https://github.com/eloyms262"
             target="_blank"
             rel="noreferrer noopener"
           >
-            <BsGithub className="text-white h-8 w-8 lg:h-10 lg:w-10 mx-3 lg:my-3" />
+            <BsGithub className="text-white h-8 w-8 lg:h-10 lg:w-10 mx-3 lg:my-3 animate__animated animate__fadeIn animate__delay-1s" />
           </a>
           <button
             onClick={() => navigator.clipboard.writeText("eloyMs26@gmail.com")}
           >
-            <AiFillMail className="text-white h-8 w-8 lg:h-10 lg:w-10 mx-3 lg:my-3 " />
+            <AiFillMail className="text-white h-8 w-8 lg:h-10 lg:w-10 mx-3 lg:my-3 animate__animated animate__fadeIn animate__delay-1s " />
           </button>
           <a href="/angelo_cv.pdf" download>
-            <HiDocumentText className="text-white h-8 w-8 lg:h-10 lg:w-10 mx-3 lg:my-3" />
+            <HiDocumentText className="text-white h-8 w-8 lg:h-10 lg:w-10 mx-3 lg:my-3 animate__animated animate__fadeIn animate__delay-1s" />
           </a>
         </div>
       </div>
       <div className="flex flex-col items-center justify-center mt-8">
         <Link href={"#about-me"}>
-          <div className="flex flex-col items-center justify-center">
-            <a className="text-white font-SourceSansPro text-lg lg:text-2xl">
+          <div className="flex flex-col items-center justify-center lg:translate-y-32  ">
+            <a className="text-white font-SourceSansPro text-lg lg:text-3xl animate__animated animate__fadeInDown animate__delay-2s ">
               More about me
             </a>
             <BsChevronDoubleDown className="text-white h-6 w-6 animate-bounce mt-5" />

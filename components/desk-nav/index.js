@@ -1,6 +1,6 @@
 export default function DeskNav() {
   return (
-    <div>
+    <div className="hidden lg:block">
       <div>
         <span>Angelo</span>
         <span>|</span>

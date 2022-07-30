@@ -1,5 +1,6 @@
 import MainNav from "../components/mobile-nav";
 import { ChakraProvider } from "@chakra-ui/react";
+import "animate.css";
 
 import "../styles/globals.css";
 
