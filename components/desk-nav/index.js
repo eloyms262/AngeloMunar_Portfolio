@@ -21,9 +21,6 @@ export default function DeskNav() {
           <li className="mx-6">
             <Link href="#my-contacts">Contacts</Link>
           </li>
-          <li className="mx-6">
-            <Link href="">Hatdog</Link>
-          </li>
         </ul>
       </div>
     </div>
