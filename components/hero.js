@@ -63,7 +63,7 @@ export default function HeroSection() {
       </div>
       <div className="flex flex-col items-center justify-center mt-8">
         <Link href={"#about-me"}>
-          <div className="flex flex-col items-center justify-center lg:translate-y-32  ">
+          <div className="flex flex-col items-center justify-center lg:h-96  ">
             <a className="text-white font-SourceSansPro text-lg lg:text-3xl animate__animated animate__fadeInDown animate__delay-2s ">
               More about me
             </a>
