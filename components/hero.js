@@ -9,7 +9,7 @@ import "animate.css";
 
 export default function HeroSection() {
   return (
-    <div className=" mx-auto w-5/6 mt-20 lg:w-7/12 lg:h-5/6 lg:flex lg:flex-col  ">
+    <div className=" mx-auto w-5/6 mt-20 lg:mt-10 lg:w-7/12 lg:h-5/6 lg:flex lg:flex-col  ">
       <div className="lg:flex lg:flex-row-reverse lg:mx-auto lg:items-center">
         <div>
           <div className="animate__animated animate__slideInLeft animate__faster">
